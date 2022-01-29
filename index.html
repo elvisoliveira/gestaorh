@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Gestão RH</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="shortcut icon" href="sites/default/files/favicon.png" type="image/x-icon" />
+		<link type="text/css" rel="stylesheet" media="all" href="sites/default/files/css/css_7c42e370f33b561ca9a46cfacc94ab70.css" />
+		<script type="text/javascript" src="sites/default/files/js/js_6625e31cccc1c96e879ec7d50d371e21.js"></script>
+		<script type="text/javascript">
+			<!--//--><![CDATA[//><!--
+			jQuery.extend(Drupal.settings, { basePath: '' });
+			//--><!]]>
+		</script>
+	</head>
+
+	<body class="front not-logged-in page-node no-sidebars">
+		<div class="wrapper" id="topo">
+			<div id="topo-inner" class="wrapper-inner">
+				<div id="login">
+					<span style="display: none">Acesse sua página:</span>
+					<form action="#" method="post" name="form1" style="display: none">
+						<fieldset>
+							<div id="field-email">
+								<input type="text" name="email" placeholder="E-mail" />
+							</div>
+							<div id="field-senha">
+								<input type="password" name="senha" placeholder="Senha" />
+							</div>
+							<div id="field-go">
+								<input type="submit" value="OK" />
+							</div>
+						</fieldset>
+					</form>
+					<a href="#" id="recuperar-senha" style="display: none">Recupere sua Senha</a>
+					<a href="#" id="novo-emprego" style="float: right; margin-right: 24px" target="_blank">Procurando um novo emprego? <span>Cadastre-se</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper" id="nav">
+			<div id="nav-inner" class="wrapper-inner">
+				<div id="marca">
+					<a href="#">
+						<img src="sites/all/themes/gestaorh/img/marca.gif" />
+					</a>
+				</div>
+				<div id="menu">
+					<ul class="links primary-links">
+						<li class="menu-304 active-trail first active">
+							<a href="#" title="" class="active">Home</a>
+						</li>
+						<li class="menu-242">
+							<a href="#" title="">A Gestão RH</a>
+						</li>
+						<li class="menu-332">
+							<a href="#" title="Clientes">Clientes</a>
+						</li>
+						<li class="menu-303 last">
+							<a href="#" title="">Contato</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="wrapper" id="sub-nav">
+			<div id="sub-nav-inner" class="wrapper-inner">
+				<ul class="menu">
+					<li class="collapsed first">
+						<a href="#" title="">Para Você</a>
+					</li>
+					<li class="collapsed last">
+						<a href="#" title="">Para a sua empresa</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="wrapper" id="content">
+			<div id="content-inner" class="wrapper-inner">
+				<div id="clientes">
+					<div id="vagas-recentes" class="box">
+						<span>Vagas Recentes</span>
+						<a href="#" id="vagas2">
+							<img src="sites/all/themes/gestaorh/img/home-vagas-recentes.jpg" />
+						</a>
+					</div>
+
+					<div id="buscar-vagas" class="box">
+						<span>Busca de Vagas</span>
+						<p>Faça uma busca pela região que deseja encontrar uma vaga.</p>
+						<form action="http://spa.ancorarh.srv.br/servicos/gestaorh/vagas.php" target="_blank">
+							<fieldset>
+								<div id="field-busca">
+									<input type="text" name="busca" />
+								</div>
+								<div id="field-go">
+									<a href="#" class="vagas2">
+										<input type="button" value="Buscar" />
+									</a>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+					<div id="clientes" class="box">
+						<span>Clientes</span>
+						<div class="view view-clientes-home view-id-clientes_home view-display-id-default view-dom-id-c52ca86b2aab6feecf0e7e8f74a2a599">
+							<div class="view-content">
+								<ul>
+									<li class="first odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/cesa/cesa.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/dayco/dayco_0.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/denso/denso.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/tegma/tegma.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/dmle/dmle.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/meta_galvanizacao/meta_galvanizacao_0.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/plena/plena.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/ferrero/ferrero.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/jabil/jabil_0.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/mapal/mapal.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/brembo/brembo.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/mago/mago.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/vila_nova/vila_nova.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/prontomec/prontomec.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/isri/isri.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/amkor/amkor.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/orteng/orteng.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/logoplaste/logoplaste.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/locar/locar.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/expresso_nepo/expresso_nepo.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/sodexo/sodexo.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/marcel/marcel.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/rapidao/rapidao.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/unimed/unimed.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/almaviva/almaviva.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/pitagoras/pitagoras.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/proema/proema_0.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/arcor/arcor_0.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/zf/zf.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/encapa/encapa_0.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/inb/inb.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/m/m.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/gran_sapore/gran_sapore.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/macoil/macoil.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/magneti/magneti.png" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/thyssen/thyssen.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/delphi/delphi.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/danone/danone.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/crn/crn.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/alcoa/alcoa.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/bunge/bunge.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/magnesita/magnesita.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/emh/emh_0.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/daytec/daytec_0.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/phelps/phelps.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/tower/tower.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/jamef/jamef.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/monteiro_de_barros/monteiro_de_barros.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/pipe/pipe.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/lear/lear_1.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/big_shopping/big_shopping.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/sj/sj.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/leader/leader.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/acoforja/acoforja_2.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/fiemg/fiemg.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+
+									<li class="even">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/isonorte/isonorte.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+								<ul>
+									<li class="last odd">
+										<img src="sites/default/files/imagecache/clientes_home/clientes/klabin/klabin.jpg" alt="" title="" class="imagecache imagecache-clientes_home imagecache-default imagecache-clientes_home_default" width="70" height="35" />
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="gestermed">
+					<div id="institucional" class="box">
+						<span>Institucional</span>
+						<img src="sites/all/themes/gestaorh/img/home-institucional.jpg" />
+						<p>Em mais de 17 anos de experiência a Gestão RH evoluiu e muito. Hoje, oferecemos soluções empresariais das mais diversas e serviços diferenciados para candidatos e corporações.</p>
+					</div>
+					<div id="corporativo" class="box">
+						<span>Corporativo</span>
+						<img src="sites/all/themes/gestaorh/img/home-corporativo.jpg" />
+						<p>Colocamos á sua disposição uma gama de serviços que certamente representarão um diferencial altamente competitivo para a sua empresa. Conheça nossas soluções inovadoras.</p>
+					</div>
+					<div id="gestermed-box" class="box">
+						<span>Gestermed</span>
+						<a href="#"><img src="sites/all/themes/gestaorh/img/home-gestermed.jpg" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="wrapper" id="sitemap">
+			<div id="sitemap-inner" class="wrapper-inner">
+				<ul class="menu">
+					<li class="expanded first">
+						<a href="#" title="">A Gestão RH</a>
+						<ul class="menu">
+							<li class="leaf first">
+								<a href="#" title="">A Empresa</a>
+							</li>
+							<li class="leaf">
+								<a href="#" title="Responsabilidade Social">Responsabilidade Social</a>
+							</li>
+							<li class="leaf last">
+								<a href="#" title="Unidades">Unidades</a>
+							</li>
+						</ul>
+					</li>
+					<li class="leaf">
+						<a href="#" title="Clientes">Clientes</a>
+					</li>
+					<li class="expanded">
+						<a href="#" title="">Contato</a>
+						<ul class="menu">
+							<li class="leaf first">
+								<a href="#" title="Corporativo">Corporativo</a>
+							</li>
+							<li class="leaf last">
+								<a href="#" title="Fale Conosco">Fale Conosco</a>
+							</li>
+						</ul>
+					</li>
+					<li class="expanded">
+						<a href="#" title="">Para Você</a>
+						<ul class="menu">
+							<li class="leaf first">
+								<a href="#" title="Apresentação">Apresentação</a>
+							</li>
+							<li class="leaf">
+								<a href="#">Artigos e Dicas</a>
+							</li>
+							<li class="leaf">
+								<a href="#" title="">Buscar Vaga</a>
+							</li>
+							<li class="leaf last">
+								<a href="#" title="">Cadastre seu Currículo</a>
+							</li>
+						</ul>
+					</li>
+					<li class="expanded last">
+						<a href="#" title="">Para a sua empresa</a>
+						<ul class="menu">
+							<li class="leaf first">
+								<a href="#" title="Apresentação">Apresentação</a>
+							</li>
+							<li class="expanded">
+								<a href="#" title="">Gestermed</a>
+								<ul class="menu">
+									<li class="leaf first">
+										<a href="#" title="">Gestão RH</a>
+									</li>
+									<li class="leaf">
+										<a href="#" title="Apresentação">Apresentação</a>
+									</li>
+									<li class="leaf">
+										<a href="#" title="Relatórios Web">Relatórios Web</a>
+									</li>
+									<li class="leaf last">
+										<a href="#" title="Contato">Contato</a>
+									</li>
+								</ul>
+							</li>
+							<li class="leaf">
+								<a href="#" title="Porque nos Contratar">Porque nos Contratar</a>
+							</li>
+							<li class="leaf last">
+								<a href="#" title="Produtos e Serviços">Produtos e Serviços</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="wrapper" id="bottom">
+			<div id="bottom-inner" class="wrapper-inner">
+				<ul>
+					<li>Rua dos Jequitibás, 527</li>
+					<li>Eldorado</li>
+					<li>Contagem</li>
+					<li>MG</li>
+					<li>CEP 32.310-390</li>
+					<li>Tel. (31) 2104-8300</li>
+					<li>Fax (31) 2104-8302</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
